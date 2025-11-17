@@ -102,6 +102,40 @@
             border: 2px solid #FF3621;
         }
 
+        .contact-box {
+            background: rgba(255, 54, 33, 0.15);
+            border: 2px solid #FF3621;
+            padding: 25px 40px;
+            border-radius: 15px;
+            margin-bottom: 40px;
+            display: inline-block;
+        }
+
+        .contact-box-title {
+            font-size: 1.5rem;
+            color: #ffffff;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .contact-info {
+            font-size: 1.2rem;
+            color: #ffffff;
+            line-height: 2;
+        }
+
+        .contact-info a {
+            color: #FF3621;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        .contact-info a:hover {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+
         /* Print styles for converting to PDF */
         @media print {
             body {
@@ -113,6 +147,14 @@
 </head>
 <body>
     <div class="slide-container">
+        <div class="contact-box">
+            <div class="contact-box-title">Contact your Macquarie Account Team:</div>
+            <div class="contact-info">
+                <a href="mailto:matthew.prumm@databricks.com">Matthew Prumm</a>, Account Lead - (matthew.prumm@databricks.com)<br>
+                <a href="mailto:bilal.alam@databricks.com">Bilal Alam</a>, Enterprise Architect - (bilal.alam@databricks.com)
+            </div>
+        </div>
+        
         <h1 class="slide-title">Explore Databricks Solutions<br>for Macquarie Group</h1>
         <p class="slide-subtitle">Scan to access resources and insights</p>
         
