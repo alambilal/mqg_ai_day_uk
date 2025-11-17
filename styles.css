@@ -306,12 +306,14 @@ header p {
     text-decoration: none;
     display: block;
     margin-bottom: 10px;
-    transition: color 0.3s ease;
+    transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 .contact-name:hover {
     color: #E02A15;
     text-decoration: underline;
+    transform: scale(1.05);
 }
 
 .contact-title {
@@ -326,6 +328,19 @@ header p {
     color: #7f8c8d;
     font-family: 'Courier New', monospace;
     word-break: break-all;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.contact-email:hover {
+    color: #FF3621;
+    background: #f8f9fa;
+    text-decoration: underline;
+    transform: translateY(-2px);
 }
 
 /* Footer */
